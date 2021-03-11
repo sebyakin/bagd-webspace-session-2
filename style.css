@@ -1,0 +1,138 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+}
+
+:root {
+    --bg-color: #9A9BA0;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    padding: 5vw;
+    box-sizing: border-box;
+}
+
+.rotate-ccv {
+    transform: rotateZ(-7deg);
+}
+
+.rotate-cv {
+    transform: rotateZ(15deg);
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10vw;
+}
+
+.header h1 {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: RED;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.top-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4vh;
+}
+
+.top-image img {
+    width: 89%;
+}
+
+.two-images {
+    display: flex;
+    padding: 5vw;
+    justify-content: space-between;
+}
+
+.img-small {
+    width: 20vw;
+}
+
+.img-bigger {
+    width: 55vw;
+}
+
+.about {
+    display: flex;
+}
+
+.about p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 21px;
+}
+
+.title {
+    margin: 10vw 0 10vw 0;
+}
+
+.project h2 {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.project-intro {
+    width: 60%; 
+    margin-bottom: 10vw;
+}
+
+.project-about {
+    margin-bottom: 10vw;
+}
+
+.project-about p {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 45.77px;
+}
+
+.project-gallery {
+    margin-bottom: 10vw;
+}
+
+.wide-image {
+    margin-bottom: 10vw;
+}
+
+.title h2 {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+.links a {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFFF00;
+}
+
+
+
+
+
+
+
+
+
